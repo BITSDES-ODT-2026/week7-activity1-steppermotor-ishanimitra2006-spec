@@ -11,22 +11,22 @@ while True :
     in2.value(0)
     in3.value(0)
     in4.value(0)
-    time.sleep_us(5)
+    time.sleep_ms(5)
     
     in1.value(0)
     in2.value(1)
     in3.value(0)
     in4.value(0)
-    time.sleep_us(5)
+    time.sleep_ms(5)
     
     in1.value(0)
     in2.value(0)
     in3.value(1)
     in4.value(0)
-    time.sleep_us(5)
+    time.sleep_ms(5)
     
     in1.value(0)
     in2.value(0)
     in3.value(0)
     in4.value(1)
-    time.sleep_us(5)#Write your code here to run the stepper motor without using any loop
+    time.sleep_ms(5)#Write your code here to run the stepper motor without using any loop
